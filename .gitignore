@@ -1,0 +1,13 @@
+# Binaries
+/bin/
+/pkg/
+
+# Dependency directories (remove the comment below to include it)
+# /vendor/
+
+# Output files
+*.out
+*.csv
+
+# OS files
+.DS_Store
