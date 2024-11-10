@@ -1,48 +1,48 @@
 
 # Task Manager
 
-Ein einfacher CLI-basierter Task Manager, entwickelt in Go. Dieses Tool ermöglicht es Ihnen, Aufgaben effizient zu verwalten, indem Sie sie hinzufügen, listen, vervollständigen und löschen.
+A simple CLI-based task manager, developed in Go. This tool allows you to efficiently manage tasks by adding, listing, completing, and deleting them.
 
 ## Features
 
-- **Aufgaben hinzufügen:** Fügen Sie neue Aufgaben mit Beschreibung und Priorität hinzu.
-- **Aufgaben listen:** Zeigen Sie alle Aufgaben oder filtern Sie nach Priorität.
-- **Aufgaben vervollständigen:** Markieren Sie Aufgaben als abgeschlossen.
-- **Aufgaben löschen:** Entfernen Sie unnötige Aufgaben aus der Liste.
+- **Add Tasks:** Add new tasks with a description and priority.
+- **List Tasks:** Display all tasks or filter by priority.
+- **Complete Tasks:** Mark tasks as completed.
+- **Delete Tasks:** Remove unnecessary tasks from the list.
 
-## Voraussetzungen
+## Prerequisites
 
-Stellen Sie sicher, dass Sie Go auf Ihrem Computer installiert haben. Das Projekt wurde mit Go 1.15 und neuer entwickelt und getestet. Sie können Go von der offiziellen [Go-Website](https://golang.org/dl/) herunterladen.
+Ensure you have Go installed on your computer. The project was developed and tested with Go 1.15 and later. You can download Go from the official [Go website](https://golang.org/dl/).
 
 ## Installation
 
-Um dieses Projekt zu verwenden, klonen Sie zunächst das Repository auf Ihren lokalen Computer:
+To use this project, first clone the repository to your local computer:
 
 ```bash
 git clone https://github.com/robertwade/my-task-manager.git
 cd my-task-manager
 ```
 
-## Verwendung
+## Usage
 
-Um den Task Manager zu starten, navigieren Sie zum Projektverzeichnis und führen Sie das Programm aus:
+To start the Task Manager, navigate to the project directory and run the program:
 
 ```bash
 go run cmd/main.go
 ```
 
-Folgen Sie den Anweisungen im CLI, um Aufgaben zu verwalten. Sie können zwischen verschiedenen Optionen wählen, wie das Hinzufügen oder Anzeigen von Aufgaben.
+Follow the instructions in the CLI to manage tasks. You can choose between different options such as adding or listing tasks.
 
-## Struktur des Projekts
+## Project Structure
 
-- `cmd/main.go`: Der Hauptzugangspunkt der Anwendung.
-- `pkg/task/task.go`: Definiert die Task-Struktur und Konstruktorfunktion.
-- `pkg/storage/storage.go`: Verantwortlich für die Verwaltung der Speicherung der Tasks in einer CSV-Datei.
+- `cmd/main.go`: The main entry point of the application.
+- `pkg/task/task.go`: Defines the Task structure and constructor function.
+- `pkg/storage/storage.go`: Responsible for managing the storage of tasks in a CSV file.
 
-## Lizenz
+## License
 
-Dieses Projekt ist unter der MIT Lizenz veröffentlicht. Weitere Details finden Sie in der [LICENSE](LICENSE.md) Datei.
+This project is released under the MIT License. Further details can be found in the [LICENSE](LICENSE.md) file.
 
-## Kontakt
+## Contact
 
-Falls Sie Fragen haben oder Unterstützung benötigen, zögern Sie nicht, mich über [GitHub Issues](https://github.com/robertwade/my-task-manager/issues) zu kontaktieren.
+If you have any questions or need support, do not hesitate to contact me via [GitHub Issues](https://github.com/robertwade/my-task-manager/issues).
